@@ -8,7 +8,7 @@ public class Person {
         return firstName;
     }
 
-    public String getSecondName(){
+    public String getLastName(){
         return lastName;
     }
 
