@@ -25,7 +25,7 @@ public class Person {
     }
 
     public void setAge(int age){
-        if(age<0 || age>0){
+        if(age<0 || age>100){
             this.age=0;
         }
         else{
@@ -52,9 +52,6 @@ public class Person {
         else{
             return lastName;
         }
-
-
-
 
     }
 
