@@ -42,8 +42,9 @@ public class Person {
         }
     }
 
-    public String getFullName(){
-        return firstName + lastName;
+    public void getFullName(){
+        System.out.println(firstName+ " "+ lastName);
+
     }
 
 
