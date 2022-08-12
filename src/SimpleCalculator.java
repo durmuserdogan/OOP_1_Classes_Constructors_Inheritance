@@ -8,7 +8,7 @@ public class SimpleCalculator {
         return firstNumber;
     }
 
-    public double getsecondNumber(){
+    public double getSecondNumber(){
         return secondNumber;
     }
 
