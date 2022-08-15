@@ -17,6 +17,18 @@ public class Main {
         System.out.println("multiply= "+calculator.getMultiplicationResult());
         System.out.println("divide= "+calculator.getDivisionResult());*/
 
+/*        // Bank Account
+        BankAccount dumAccount = new BankAccount();
+        dumAccount.setAccountNum("12345");
+        dumAccount.setBalance(0.00);
+        dumAccount.setCustomerName(" Bob Brown");
+        dumAccount.setEmail("email@bob.com");
+        dumAccount.setPhoneNumber("+90 5517225315");
+
+        dumAccount.deposit(500.0);
+        dumAccount.withdrawal(100.0);*/
+
+
 
 
 
