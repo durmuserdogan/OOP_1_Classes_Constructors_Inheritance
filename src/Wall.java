@@ -10,9 +10,11 @@ public class Wall {
     public Wall(double width, double height) {
         if(this.width<0){
             this.width=0;
+            this.height=height;
         }
-        if(this.height<0){
+        else if(this.height<0){
             this.height=0;
+            this.width=width;
         }
         else{
             this.width = width;
