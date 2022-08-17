@@ -4,7 +4,7 @@ public class Wall {
     private double height;
 
     public Wall() {
-        this(30,40);
+        this(0,0);
     }
 
     public Wall(double width, double height) {
