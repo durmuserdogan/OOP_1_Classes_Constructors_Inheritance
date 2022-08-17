@@ -8,11 +8,11 @@ public class Wall {
     }
 
     public Wall(double width, double height) {
-        if(this.width<0){
+        if(width<0){
             this.width=0;
             this.height=height;
         }
-        else if(this.height<0){
+        if(height<0){
             this.height=0;
             this.width=width;
         }
@@ -33,7 +33,7 @@ public class Wall {
 
     public void setWidth(double width) {
 
-        if(this.width<0){
+        if(width<0){
             this.width=0;
         }
         else{
@@ -44,7 +44,7 @@ public class Wall {
 
     public void setHeight(double height) {
 
-        if(this.height<0){
+        if(height<0){
             this.height=0;
         }
         else{
