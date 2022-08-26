@@ -57,7 +57,7 @@ public class Main {
         calculator = new Calculator(floor, carpet);
         System.out.println("total= " + calculator.getTotalCost());*/
 
-        // Complex Operations
+/*        // Complex Operations
         ComplexNumber one= new ComplexNumber(1.0,1.0);
         ComplexNumber number = new ComplexNumber(2.5,-1.5);
         one.add(1,1);
@@ -68,8 +68,15 @@ public class Main {
         System.out.println("one.imaginary= " + one.getImaginary());
         number.subtract(one);
         System.out.println("number.real= " + number.getReal());
-        System.out.println("number.imaginary= " + number.getImaginary());
+        System.out.println("number.imaginary= " + number.getImaginary());*/
 
+        //Inheritance Part1 and Part2
+        Animal animal = new Animal("Animal ", 1,1,5,5);
+        Dog dog = new Dog("basguda", 8, 20,2,4,1,20,"long silky");
+        dog.eat();
+
+        dog.walk();
+        dog.run();
 
 
     }
